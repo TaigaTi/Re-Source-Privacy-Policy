@@ -118,7 +118,7 @@ We do not sell, rent, or share your personal information with third parties exce
 ## 7. Data Location and Infrastructure
 
 ### 7.1 Firebase Infrastructure
-Your data is stored on Google Firebase's cloud infrastructure. Firebase data centers are located globally, primarily in the United States, but may be stored and processed in other locations based on Google's infrastructure.
+Your data is stored on Google Firebase's cloud infrastructure. Firebase operates data centers in multiple regions worldwide, and your data may be stored and processed in any of these locations based on Google's infrastructure configuration.
 
 ### 7.2 International Data Transfers
 By using Re-Source, you consent to your data being transferred to and processed in countries where Google Firebase operates, which may have different data protection laws than your country of residence.
@@ -152,9 +152,9 @@ We retain your data for as long as your account is active or as needed to provid
 
 ### 9.2 Deleted Accounts
 When you delete your account, your data is immediately removed from our active databases. However:
-- Some data may remain in backup systems for a limited period (typically 30-60 days)
-- Firebase may retain certain data according to their retention policies
-- Crash logs and analytics data may be retained for up to 90 days for app improvement purposes
+- Some data may remain in backup systems for a limited period according to Firebase's backup policies
+- Firebase may retain certain data according to their data retention policies
+- Crash logs and analytics data may be retained temporarily according to Firebase Crashlytics retention policies
 
 ### 9.3 Inactive Accounts
 We do not automatically delete inactive accounts. Your data will remain in Firebase until you delete your account.
