@@ -1,26 +1,30 @@
 # Re-Source Privacy Policy
 
-This repository contains the official Privacy Policy for the Re-Source mobile application.
+This repository contains the privacy policy for the **Re-Source** app - a smart link management app that transforms every saved URL into a sleek, interactive card.
 
-## Current Privacy Policy
+## View Privacy Policy
 
-📄 [View Privacy Policy](PRIVACY_POLICY.md)
+📄 [View Privacy Policy](privacy-policy.html)
 
 ## About Re-Source
 
-Re-Source is a mobile application that helps users save, organize, and manage web resources and links. The app uses Google Firebase cloud services for data storage and synchronization.
+Re-Source is a smart link management app that transforms every saved URL into a sleek, interactive card—automatically organized into categories for quick and easy access. Re-Source offers a focused, minimal interface for managing your digital bookmarks with clarity and ease.
 
-## Key Privacy Information
+### Features
+- 🔗 Quick Link Saving
+- 🧠 Automatic Metadata Parsing
+- ✍️ Custom Metadata Entry
 
-- **Cloud Storage**: All user data is stored in Google Firebase (not locally on devices)
-- **Data Collection**: Email addresses, user-generated content (categories and resources), and crash analytics
-- **Third-Party Services**: Uses Firebase Authentication, Cloud Firestore, Firebase Storage, and Firebase Crashlytics
-- **Data Deletion**: Users can delete their account and all associated data from within the app
+## Usage
 
-## Contact
+To view the privacy policy:
+1. Open `privacy-policy.html` in any web browser
+2. Or deploy it to your preferred hosting service
 
-For privacy-related questions or concerns, please contact: support@re-source.app
+## Publishing
 
-## Last Updated
-
-December 15, 2024
+The `privacy-policy.html` file is a standalone HTML file that can be:
+- Hosted on any web server
+- Deployed to GitHub Pages
+- Opened directly in a browser
+- Embedded in the Re-Source app
