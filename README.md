@@ -6,6 +6,8 @@ This repository contains the privacy policy for the **Re-Source** app - a smart 
 
 📄 [View Privacy Policy](privacy-policy.html)
 
+🗑️ [Account Deletion Information](account-deletion.html)
+
 ## About Re-Source
 
 Re-Source is a smart link management app that transforms every saved URL into a sleek, interactive card—automatically organized into categories for quick and easy access. Re-Source offers a focused, minimal interface for managing your digital bookmarks with clarity and ease.

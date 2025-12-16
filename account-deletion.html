@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion - Re-Source App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .app-name {
+            color: #3498db;
+        }
+
+        .last-updated {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.3em;
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .intro {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            border-left: 4px solid #3498db;
+        }
+
+        .warning-box {
+            background-color: #fff3cd;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            border-left: 4px solid #ffc107;
+        }
+
+        .info-box {
+            background-color: #d1ecf1;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            border-left: 4px solid #17a2b8;
+        }
+
+        .contact-info {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .data-table th,
+        .data-table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .data-table th {
+            background-color: #3498db;
+            color: white;
+            font-weight: 600;
+        }
+
+        .data-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .deletion-status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .deleted {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        .retained {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            h3 {
+                font-size: 1.2em;
+            }
+
+            .data-table {
+                font-size: 0.9em;
+            }
+
+            .data-table th,
+            .data-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="privacy-policy.html" class="back-link">← Back to Privacy Policy</a>
+        
+        <h1>Account Deletion for <span class="app-name">Re-Source</span></h1>
+        <p class="last-updated">Last Updated: December 16, 2024</p>
+
+        <div class="intro">
+            <p><strong>Re-Source</strong> respects your right to control your data. This page provides detailed information about what happens when you delete your account, including which data is deleted and which data may be retained.</p>
+        </div>
+
+        <h2>1. How to Delete Your Account</h2>
+        
+        <p>Users can delete their account directly in the Re-Source app by following these steps:</p>
+        <ol>
+            <li>Open the Re-Source app</li>
+            <li>Navigate to <strong>Profile</strong></li>
+            <li>Go to <strong>Settings</strong></li>
+            <li>Select <strong>Delete Account</strong></li>
+            <li>Confirm your choice when prompted</li>
+        </ol>
+
+        <div class="warning-box">
+            <p><strong>⚠️ Important:</strong> Account deletion is permanent and cannot be undone. Please make sure you want to proceed before confirming your choice.</p>
+        </div>
+
+        <h2>2. Data Deletion Policy</h2>
+
+        <h3>2.1 Data Immediately and Permanently Deleted</h3>
+        
+        <p>When you request account deletion, the following data is <strong>immediately and permanently deleted</strong> from our Firebase infrastructure:</p>
+        <ul>
+            <li><strong>User account and authentication credentials:</strong> Your login information and account identifiers from Firebase Authentication</li>
+            <li><strong>Email address and profile information:</strong> All personal profile details (email, name, profile picture URL) associated with your account</li>
+            <li><strong>All user-generated content:</strong> This includes:
+                <ul>
+                    <li>All resources (titles, descriptions, URLs) stored in Cloud Firestore</li>
+                    <li>All categories (names, colors, organizational preferences) stored in Cloud Firestore</li>
+                    <li>All images uploaded to Firebase Storage</li>
+                </ul>
+            </li>
+            <li><strong>All personal data stored in our database:</strong> Any other personal information linked to your account in Cloud Firestore</li>
+            <li><strong>User ID associations:</strong> Your unique user identifier and all data linked to it</li>
+        </ul>
+
+        <div class="info-box">
+            <p><strong>Retention Period:</strong> 0 days (immediate deletion)</p>
+            <p>Your personal data is deleted immediately upon account deletion confirmation. No personal user data is retained after account deletion.</p>
+        </div>
+
+        <h3>2.2 Data That May Be Retained</h3>
+        
+        <p>While all personal data is deleted immediately, certain anonymized or system data may be retained for limited periods by third-party services:</p>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Data Type</th>
+                    <th>Status</th>
+                    <th>Retention Period</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Anonymized analytics data</strong></td>
+                    <td><span class="deletion-status retained">Retained</span></td>
+                    <td>Up to 14 months</td>
+                    <td>Fully anonymized usage statistics managed by Firebase Analytics that cannot be linked to you</td>
+                </tr>
+                <tr>
+                    <td><strong>Crash reports</strong></td>
+                    <td><span class="deletion-status retained">Retained</span></td>
+                    <td>Up to 90 days</td>
+                    <td>Anonymized diagnostic data managed by Firebase Crashlytics, used for improving app stability</td>
+                </tr>
+                <tr>
+                    <td><strong>Advertising data</strong></td>
+                    <td><span class="deletion-status retained">Retained</span></td>
+                    <td>60-90 days</td>
+                    <td>Managed by Google AdMob according to <a href="https://policies.google.com/privacy" target="_blank">Google's policies</a></td>
+                </tr>
+                <tr>
+                    <td><strong>System logs</strong></td>
+                    <td><span class="deletion-status retained">Retained</span></td>
+                    <td>Up to 30 days</td>
+                    <td>Maintained by Firebase for service integrity and security purposes</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>2.3 Important Notes About Retained Data</h3>
+        
+        <ul>
+            <li><strong>Cannot Identify You:</strong> All retained data is either fully anonymized or consists of system logs that cannot identify individual users</li>
+            <li><strong>No Personal Information:</strong> Retained data does not contain any personal information such as email addresses, usernames, or user-generated content</li>
+            <li><strong>Third-Party Services:</strong> Data managed by third-party services follows their respective policies:
+                <ul>
+                    <li><strong>Firebase Analytics & Crashlytics:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+                    <li><strong>Google AdMob:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob Privacy Information</a></li>
+                </ul>
+            </li>
+            <li><strong>Service Improvement:</strong> Anonymized data is used solely for improving app performance, stability, and user experience</li>
+            <li><strong>Advertising ID Reset:</strong> You can reset your advertising ID at any time through your device settings to limit ad tracking independently of account deletion</li>
+        </ul>
+
+        <h2>3. Data Deletion Summary</h2>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Deletion Status</th>
+                    <th>Timeline</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Personal user data</td>
+                    <td><span class="deletion-status deleted">Deleted</span></td>
+                    <td>Immediate (0 days)</td>
+                </tr>
+                <tr>
+                    <td>Account credentials</td>
+                    <td><span class="deletion-status deleted">Deleted</span></td>
+                    <td>Immediate (0 days)</td>
+                </tr>
+                <tr>
+                    <td>Profile information</td>
+                    <td><span class="deletion-status deleted">Deleted</span></td>
+                    <td>Immediate (0 days)</td>
+                </tr>
+                <tr>
+                    <td>User-generated content</td>
+                    <td><span class="deletion-status deleted">Deleted</span></td>
+                    <td>Immediate (0 days)</td>
+                </tr>
+                <tr>
+                    <td>Resources and categories</td>
+                    <td><span class="deletion-status deleted">Deleted</span></td>
+                    <td>Immediate (0 days)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>4. After Account Deletion</h2>
+        
+        <p>Once your account is deleted:</p>
+        <ul>
+            <li>You will no longer be able to access the Re-Source app with your previous credentials</li>
+            <li>All your saved links and resources will be permanently removed</li>
+            <li>You can create a new account at any time, but your previous data cannot be recovered</li>
+            <li>If you have any backups or exports of your data, they remain under your control</li>
+        </ul>
+
+        <h2>5. Questions or Concerns</h2>
+        
+        <div class="contact-info">
+            <p>If you have any questions about account deletion or our data deletion practices, please contact us at:</p>
+            <p><strong>Email:</strong> support@re-source.app</p>
+            <p><strong>Project:</strong> Re-Source App</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/TaigaTi/Re-Source-Privacy-Policy">Re-Source Privacy Policy Repository</a></p>
+        </div>
+
+        <h2>6. Related Information</h2>
+        
+        <p>For more information about how we handle your data, please see our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+
+    </div>
+</body>
+</html>
